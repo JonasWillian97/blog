@@ -16,3 +16,21 @@ h1{
     font-size: $fontSize;
     color: $color;
 }
+
+@media (max-width: 572px) {
+    h1{
+        font-size: 80px;
+    }
+}
+
+@media (max-width: 370px) {
+    h1{
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 259px) {
+    h1{
+        font-size: 25px;
+    }
+}

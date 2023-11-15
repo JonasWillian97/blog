@@ -6,10 +6,10 @@ $align: flex-start;
 $color: grey;
 
 .container-big-card{
-    width: 600px;
-    height: 700px;
-    padding: 10px;
+    max-width: 600px;
+    max-height: 700px;
     border: 2px solid #fff;
+    padding: 20px;
     margin-left: 12px;
     display: $display;
     flex-direction:  $flexDirection;
@@ -19,7 +19,10 @@ $color: grey;
 
 .title-card > h2{
     font-size: 26px;
+}
 
+a{
+    text-decoration: none;
 }
 
 .description > p {
@@ -27,3 +30,40 @@ $color: grey;
     font-size: 18px;
     color: $color;
 }
+
+.container-big-card > .photo > img{
+    max-width: 100%;
+    margin-bottom: 15px;
+}
+
+@media (max-width: 572px) {
+    .title-card > h2{
+        font-size: 16px;
+    }
+
+    .description > p{
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 370px) {
+    .title-card > h2{
+        font-size: 22px;
+    }
+
+    .description > p{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 259px) {
+    .title-card > h2{
+        font-size: 20px;
+    }
+
+    .description > p{
+        font-size: 14px;
+    }
+}
+
+
