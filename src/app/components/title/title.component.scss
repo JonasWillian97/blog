@@ -1,0 +1,18 @@
+$padding: 30px;
+$textAlign: center;
+$fontSize: 130px;
+$border: 3px solid #FFF;
+$color: #fff;
+
+.container-title{
+    border-top: $border;
+    border-bottom: $border;
+    padding: $padding;
+    margin: 10px;
+}
+
+h1{
+    text-align: $textAlign;
+    font-size: $fontSize;
+    color: $color;
+}
