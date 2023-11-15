@@ -1,0 +1,37 @@
+$display: flex;
+$align: center;
+$justify: center;
+$padding: 20px;
+
+
+
+.container-small-card{
+    max-width: 1000px;
+    margin: 0 15px 15px;
+    padding: $padding;
+    border: 2px solid #fff;
+}
+
+.small-content{
+    display: $display;
+    flex-direction: row;
+}
+
+.photo > img{
+    width: 80%;
+    height: 80%;
+    margin-right: 20px;
+}
+
+.small-card-title > h2{
+    font-size: 26px;
+    display: $display;
+    align-items: $align;
+    justify-content: $justify;
+}
+
+.separator{
+    width: 100%;
+}
+
+

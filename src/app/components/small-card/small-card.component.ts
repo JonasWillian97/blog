@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./small-card.component.scss']
 })
 export class SmallCardComponent {
-
+  title:string = "novas séries márvel";
 }
