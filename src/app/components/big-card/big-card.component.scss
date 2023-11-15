@@ -1,0 +1,29 @@
+$textALign: center;
+$display:flex;
+$flexDirection: column;
+$justify: flex-start;
+$align: flex-start;
+$color: grey;
+
+.container-big-card{
+    width: 600px;
+    height: 700px;
+    padding: 10px;
+    border: 2px solid #fff;
+    margin-left: 12px;
+    display: $display;
+    flex-direction:  $flexDirection;
+    align-items: $align;
+    justify-content: $justify;
+}
+
+.title-card > h2{
+    font-size: 26px;
+
+}
+
+.description > p {
+    margin-top: 12px;
+    font-size: 18px;
+    color: $color;
+}
