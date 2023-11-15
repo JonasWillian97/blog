@@ -9,7 +9,7 @@ $padding: 20px;
     max-width: 1000px;
     margin: 0 15px 15px;
     padding: $padding;
-    border: 2px solid #fff;
+
 }
 
 .small-content{
@@ -18,8 +18,8 @@ $padding: 20px;
 }
 
 .photo > img{
-    width: 80%;
-    height: 80%;
+    min-width: 50px;
+    min-height: 50px;
     margin-right: 20px;
 }
 
@@ -35,3 +35,22 @@ $padding: 20px;
 }
 
 
+@media  (max-width: 572px){
+    .small-card-title > h2{
+        font-size: 24px;
+    }
+}
+
+
+@media  (max-width: 370px){
+    .small-card-title > h2{
+        font-size: 22px;
+    }
+}
+
+
+@media  (max-width: 259px){
+    .small-card-title > h2{
+        font-size: 20px;
+    }
+}
