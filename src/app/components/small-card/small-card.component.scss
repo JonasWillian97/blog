@@ -18,8 +18,7 @@ $padding: 20px;
 }
 
 .photo > img{
-    min-width: 50px;
-    min-height: 50px;
+  
     margin-right: 20px;
 }
 
@@ -35,22 +34,41 @@ $padding: 20px;
 }
 
 
-@media  (max-width: 572px){
+@media(max-width: 572px){
     .small-card-title > h2{
         font-size: 24px;
     }
+    .photo > img{
+        max-width: 150px;
+    }
 }
 
-
-@media  (max-width: 370px){
+@media(max-width: 460px){
     .small-card-title > h2{
-        font-size: 22px;
+        font-size: 18px;
+    }
+    .photo > img {
+        max-width: 100px;
     }
 }
 
 
-@media  (max-width: 259px){
+@media (max-width: 370px){
     .small-card-title > h2{
         font-size: 20px;
+    }
+    .photo > img {
+        max-width: 60px;
+    }
+}
+
+
+@media(max-width: 259px){
+    .small-card-title > h2{
+        font-size: 18px;
+    }
+
+    .photo > img{
+        max-width: 40px;
     }
 }
