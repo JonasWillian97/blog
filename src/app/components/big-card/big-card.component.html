@@ -1,13 +1,13 @@
 <div class="container-big-card">
     <div class="photo">
-        <img src="https://www.alura.com.br/artigos/assets/como-comecar-com-angular/como-comecar-com-angular.png" alt="">
+        <img src="{{photo}}" alt="">
     </div>
     <div class="title-card">
         <a href="#">
-            <h2>Nova versão do angular</h2>
+            <h2>{{title | uppercase}}</h2>
         </a>
     </div>
     <div class="description">
-        <p>Nova versão, com novas funcionalidades e diversas melhorias</p>
+        <p>{{description | titlecase}}</p>
     </div>
 </div>
