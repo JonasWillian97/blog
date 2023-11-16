@@ -1,0 +1,23 @@
+$display: flex;
+$flex: row;
+$padding: 20px;
+$marginRight: 20px;
+$listStyle: none;
+$textDecoration: none;
+
+.container-nav{
+    padding: $padding;
+    display: $display;
+    flex-direction: $flex;
+}
+
+.container-nav > ul > li {
+    margin-right: $marginRight;
+    text-decoration: $textDecoration;
+    list-style: $listStyle;
+}
+
+.container-nav > ul >li >a{
+    margin-right: $marginRight;
+    text-decoration: $textDecoration;
+}
