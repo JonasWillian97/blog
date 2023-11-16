@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-big-card',
@@ -6,7 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./big-card.component.scss']
 })
 export class BigCardComponent {
-  title: string = "atualização do angular";
-  photo: string = "https://www.alura.com.br/artigos/assets/como-comecar-com-angular/como-comecar-com-angular.png";
-  description: string = "equipe do google anuncia atualização do angular, com novas funcionalidades e diversas melhorias";
+  @Input()
+  title: string = "";
+  @Input()
+  photo: string = "";
+  @Input()
+  description: string = "";
 }
